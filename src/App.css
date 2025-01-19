@@ -1,0 +1,36 @@
+.hover-link {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hover-link:hover {
+    color: rgb(196, 108, 49);
+    transform: translateX(5px);
+  }
+
+
+/* Common hover styles for buttons */
+.btn-hover {
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  .btn-hover:hover {
+    transform: scale(1.09); /* Slightly enlarges the button */
+    opacity: 1; /* Removes the opacity effect */
+    
+  }
+  
+  .btn-info:hover {
+    background-color: #17a2b8; /* Brightens the Info button */
+  }
+  
+  .btn-primary:hover {
+    background-color: #007bff; /* Brightens the Edit button */
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    color: white;
+  }
+  
