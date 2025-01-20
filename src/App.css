@@ -33,4 +33,21 @@
   .btn-danger:hover {
     color: white;
   }
+
+  /* For Webkit Browsers (e.g., Chrome, Edge, Safari) */
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+.custom-scrollbar {
+  scrollbar-width: none;
+}
+
+/* Ensures content remains scrollable */
+.custom-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  overflow: -moz-scrollbars-none; /* Firefox */
+}
+
   
